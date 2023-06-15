@@ -1,0 +1,353 @@
+
+@media (max-width: 807px) {
+  #main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .mainUP {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    margin-top: 54px;
+  }
+
+  .selectItem {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 5px;
+  }
+
+  .selectItem select {
+    display: block;
+    padding: 10px 15px;
+    line-height: 35px;
+    border: 1px solid #C0C4CC;
+    border-radius: 20px;
+    cursor: default;
+    font-size: 14px;
+    margin: 25px 15px 45px 0;
+    font-weight: 600;
+  }
+
+  section .content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    text-align: center;
+    overflow: hidden;
+
+  }
+
+  section {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  section .sectionTitleDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section .sectionTitle {
+    font-weight: 700;
+    font-size: .9rem;
+    line-height: 35px;
+    margin-top: 15px;
+    color: #000000;
+  }
+
+  section .sectionTitleDiv a {
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #0290C9;
+    margin-top: 15px;
+
+  }
+
+  section .item {
+    width: 100%;
+    margin: 8px 20px 10px 0;
+  }
+
+  section .item .title_div {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section .item .title {
+    width: 210px;
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 24px;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    position: relative;
+    left: 20px;
+  }
+
+  section .item .like {
+    text-align: left;
+    width: 260px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #606266;
+    position: relative;
+    left: 20px;
+  }
+
+  section .item .name {
+    width: 260px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #353638;
+    text-align: left;
+    position: relative;
+    left: 20px;
+  }
+}
+/* @media (min-width: 360px) and (max-width: 511px) {
+  body {
+      background: yellow;
+  }
+}
+@media (min-width: 512px) and (max-width: 807px) {
+  body {
+      background: blue;
+  }
+} */
+@media (min-width: 808px) and (max-width: 1007px) {
+  #main {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .mainUP {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 48px;
+    margin-top: 54px;
+  }
+
+  .selectItem {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-right: 5px;
+  }
+
+  .selectItem select {
+    display: block;
+    padding: 10px 15px;
+    line-height: 35px;
+    border: 1px solid #C0C4CC;
+    border-radius: 20px;
+    cursor: default;
+    font-size: 14px;
+    margin: 25px 15px 45px 0;
+    font-weight: 600;
+  }
+
+  section .content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    /* overflow: hidden; */
+
+  }
+
+  section {
+    width: 93%;
+    margin: 0 auto;
+  }
+
+  section .sectionTitleDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  section .sectionTitle {
+    font-weight: 700;
+    font-size: .9rem;
+    line-height: 35px;
+    margin-top: 15px;
+    color: #000000;
+  }
+
+  section .sectionTitleDiv a {
+    font-weight: 600;
+    font-size: .9rem;
+    line-height: 35px;
+    letter-spacing: 0.1px;
+    color: #0290C9;
+    margin-top: 15px;
+
+  }
+
+  section .item {
+    margin: 8px 2% 10px 2%;
+  }
+
+  section .item .title_div {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section .item .title {
+    width: 210px;
+    font-weight: 600;
+    font-size: .8rem;
+    line-height: 24px;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-align: left;
+    position: relative;
+    left: 20px;
+  }
+
+  section .item .like {
+    text-align: left;
+    width: 260px;
+    font-size: 13px;
+    line-height: 24px;
+    color: #606266;
+    position: relative;
+    left: 20px;
+  }
+
+  section .item .name {
+    width: 260px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #353638;
+    text-align: left;
+    position: relative;
+    left: 20px;
+  }
+}
+@media (min-width: 1008px) {
+  #main {
+    width: 1200px;
+    margin: 0 auto;
+  }
+
+  .mainUP {
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 48px;
+    margin-top: 54px;
+  }
+
+  .selectItem {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 5px;
+  }
+
+  .selectItem select {
+    display: block;
+    padding: 10px 15px;
+    line-height: 35px;
+    border: 1px solid #C0C4CC;
+    border-radius: 20px;
+    cursor: default;
+    font-size: 14px;
+    margin: 25px 15px 45px 0;
+    font-weight: 600;
+  }
+
+  section .content {
+    width: 1230px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  section .sectionTitleDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  section .sectionTitle {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    margin-top: 35px;
+    color: #000000;
+  }
+
+  section .sectionTitleDiv a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #0290C9;
+    margin-top: 40px;
+
+  }
+
+  section .item {
+    width: 280px;
+    margin: 28px 20px 28px 0;
+  }
+
+  section .item .title_div {
+    width: 260px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  section .item .title {
+    width: 220px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+
+  }
+
+  section .item .like {
+    width: 260px;
+    margin: 0 auto;
+    font-size: 13px;
+    line-height: 24px;
+    color: #606266;
+  }
+
+  section .item .name {
+    width: 260px;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 18px;
+    color: #353638;
+
+  }
+}

@@ -1,0 +1,40 @@
+@media (max-width: 807px) {
+
+  #banner img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 10% 0;
+  }
+}
+/*
+@media (min-width: 360px) and (max-width: 511px) {
+  body {
+    background: yellow;
+  }
+}
+
+@media (min-width: 512px) and (max-width: 807px) {
+  body {
+    background: blue;
+  }
+} */
+
+@media (min-width: 808px) and (max-width: 1007px) {
+  #banner img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 10% 0;
+  }
+}
+
+@media (min-width: 1008px) {
+  #banner {
+    margin: 15px 0;
+  }
+
+  #banner img {
+    width: 100%;
+  }
+}

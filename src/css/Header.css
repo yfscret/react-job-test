@@ -1,0 +1,368 @@
+@media (max-width: 807px) {
+  header {
+    width: 100%;
+    height: 123px;
+  }
+
+  header .up {
+    width: 100%;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-start;
+    align-items: center;
+  }
+  header .logo img {
+    height: 100%;
+
+  }
+
+  header .navIcon {
+    margin: 0 5%;
+  }
+  header .searchBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  header .searchBar input[type="text"] {
+    box-sizing: border-box;
+    width: 85%;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #C0C4CC;
+    border-radius: 20px;
+    padding-left: 10%;
+    margin-left: 10%;
+  }
+
+  header .searchBar button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 3%;
+    margin-top: 1%;
+    /* top: 1%; */
+  }
+
+  header .searchBar button :hover {
+    cursor: pointer;
+  }
+
+  header .link {
+    display: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #303133;
+  }
+
+  .headerLink {
+    margin: 0 15px;
+  }
+
+  .uploadIconImg {
+    margin-right: 7.33px;
+  }
+
+  header .down {
+    width: 100%;
+    margin: 0 auto;
+  }
+ /* 滚动条宽度 */
+ ::-webkit-scrollbar {
+  width: 0px;
+}
+
+  .headerButtonDiv {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    overflow-x: auto;
+    display: flex;;
+    align-items: center;
+  }
+
+  .headerButton {
+    /* height: 27.17px; */
+    background: #EBF1F4;
+    border-radius: 92.921px;
+    font-weight: 600;
+    font-size: .6rem;
+    /* line-height: 27.17px; */
+    color: #303133;
+    padding: 6.29px 6px;
+    margin: 0 3px;
+    display: inline-flex;;
+    align-items: center;
+  }
+
+  .headerButton span {
+    margin: 0 2px;
+  }
+
+  .headerButton span img {
+    position: relative;
+    top: 2px;
+  }
+
+  .activeHeaderButton {
+    background: #303133;
+    color: #fff;
+  }
+
+  .arrowIcon {
+    margin-left: 20.5px;
+  }
+}
+/*
+@media (min-width: 360px) and (max-width: 511px) {
+  body {
+    background: yellow;
+  }
+}
+
+@media (min-width: 512px) and (max-width: 807px) {
+  body {
+    background: blue;
+  }
+} */
+
+@media (min-width: 808px) and (max-width: 1007px) {
+  header {
+    width: 100%;
+    height: 123px;
+  }
+
+  header .up {
+    width: 100%;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-start;
+    align-items: center;
+  }
+  header .logo img {
+    height: 100%;
+
+  }
+
+  header .navIcon {
+    margin: 0 5%;
+  }
+  header .searchBar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  header .searchBar input[type="text"] {
+    box-sizing: border-box;
+    width: 100%;
+    height: 38px;
+    background: #FFFFFF;
+    border: 1px solid #C0C4CC;
+    border-radius: 20px;
+    padding-left: 10%;
+    margin-left: 10%;
+  }
+
+  header .searchBar button {
+    background: none;
+    border: none;
+    position: relative;
+    right: 11%;
+    margin-top: 1%;
+    /* top: 1%; */
+  }
+
+  header .searchBar button :hover {
+    cursor: pointer;
+  }
+
+  header .link {
+    display: flex;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #303133;
+  }
+
+  /* 滚动条宽度 */
+  ::-webkit-scrollbar {
+    width: 0px;
+  }
+
+  .headerLink {
+    margin: 0 15px;
+    display: inline-table;
+  }
+  .headerLink:first-child {
+    display: flex;
+  }
+
+  .uploadIconImg {
+    margin-right: 7.33px;
+  }
+
+  header .down {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+  .headerButtonDiv {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+    overflow-x: auto;
+    display: flex;;
+    align-items: center;
+  }
+
+  .headerButton {
+    /* height: 27.17px; */
+    background: #EBF1F4;
+    border-radius: 92.921px;
+    font-weight: 600;
+    font-size: .6rem;
+    /* line-height: 27.17px; */
+    color: #303133;
+    padding: 6.29px 6px;
+    margin: 0 3px;
+    display: inline-flex;;
+    align-items: center;
+  }
+
+  .headerButton span {
+    margin: 0 2px;
+  }
+
+  .headerButton span img {
+    position: relative;
+    top: 2px;
+  }
+
+  .activeHeaderButton {
+    background: #303133;
+    color: #fff;
+  }
+
+  .arrowIcon {
+    margin-left: 20.5px;
+  }
+}
+
+@media (min-width: 1008px) {
+  header {
+    width: 100%;
+    height: 123px;
+    /* border-bottom: 1px solid #D8D8D8; */
+  }
+
+  header .up {
+    width: 1200px;
+    margin: 0 auto;
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header .navIcon {
+   display: none;
+  }
+
+  header .logo img {
+    width: 116px;
+    height: 29px;
+
+  }
+
+  header .searchBar input[type="text"] {
+    box-sizing: border-box;
+    width: 355px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #C0C4CC;
+    border-radius: 20px;
+    padding-left: 24px;
+    margin-left: 120px;
+  }
+
+  header .searchBar button {
+    background: none;
+    border: none;
+    position: relative;
+    right: 43px;
+    top: 12px;
+  }
+
+  header .searchBar button :hover {
+    cursor: pointer;
+  }
+
+  header .link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #303133;
+  }
+
+  .headerLink {
+    margin: 0 15px;
+  }
+
+  .uploadIconImg {
+    margin-right: 7.33px;
+  }
+
+  header .down {
+    width: 1300px;
+    margin: 0 auto;
+  }
+
+  .headerButtonDiv {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .headerButton {
+    height: 37.17px;
+    background: #EBF1F4;
+    border-radius: 92.921px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    font-size: 14.8674px;
+    line-height: 37.17px;
+    color: #303133;
+    padding: 8.29px 13px;
+    margin: 0 3px;
+  }
+
+  .headerButton span {
+    margin: 0 2px;
+  }
+
+  .headerButton span img {
+    position: relative;
+    top: 2px;
+  }
+
+  .activeHeaderButton {
+    background: #303133;
+    color: #fff;
+  }
+
+  .arrowIcon {
+    margin-left: 20.5px;
+  }
+}
